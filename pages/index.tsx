@@ -16,21 +16,7 @@ export default function Home() {
 
       <main className={inter.className}>
         <div className="h-screen flex items-center justify-center flex-col gap-6 sm:gap-9 p-10">
-          <img
-            className="h-[54px] dark:hidden"
-            src="/logo-black.png"
-            alt="Lab 46 logotype"
-          />
-
-          <img
-            className="h-[54px] hidden dark:block"
-            src="/logo-white.png"
-            alt="Lab 46 logotype"
-          />
-
-          <p className="font-medium dark:font-normal text-lg sm:text-xl text-center">
-            Crafting high quality software
-          </p>
+          <img className="w-80 md:w-96" src="/logo.png" alt="Lab 46 logotype" />
         </div>
       </main>
     </>
