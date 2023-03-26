@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={inter.className}>
         <div className="h-screen flex items-center justify-center flex-col gap-6 sm:gap-9 p-10">
-          <img className="w-80 md:w-96" src="/logo.png" alt="Lab 46 logotype" />
+          <img className="w-64 md:w-96" src="/logo.png" alt="Lab 46 logotype" />
         </div>
       </main>
     </>
