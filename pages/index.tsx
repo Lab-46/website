@@ -10,8 +10,8 @@ export default function Home() {
       <Seo />
 
       <main className={inter.className}>
-        <div className="h-screen flex items-center justify-center flex-col gap-6 sm:gap-9 p-10">
-          <img className="w-64 md:w-96" src="/logo.png" alt="Lab 46 logotype" />
+        <div className="min-h-screen max-w-screen-xl mx-auto flex items-center justify-center flex-col p-10">
+          <img src="/pattern.png" alt="" />
         </div>
       </main>
     </>
