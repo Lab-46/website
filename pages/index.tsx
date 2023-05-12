@@ -17,8 +17,12 @@ export default function Home() {
           <img className="w-16 sm:w-20" src="/icon-white.svg" alt="" />
 
           <div className="flex flex-col items-end gap-2 text-white leading-none">
-            <p className="sm:text-lg">Crafting high-quality software</p>
-            <p className="text-sm sm:text-base">高品質なソフトウェアの作成</p>
+            <p className="sm:text-lg select-none">
+              Crafting high-quality software
+            </p>
+            <p className="text-sm sm:text-base select-none">
+              高品質なソフトウェアの作成
+            </p>
           </div>
         </nav>
 
