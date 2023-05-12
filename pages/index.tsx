@@ -16,9 +16,9 @@ export default function Home() {
         <nav className="w-full max-w-screen-2xl mx-auto pt-6 px-6 relative flex items-start justify-between">
           <img className="w-20" src="/icon-white.svg" alt="" />
 
-          <div className="flex flex-col items-end gap-3.5 text-white leading-none">
-            <p className="text-lg">Crafting high-quality software</p>
-            <p>高品質なソフトウェアの作成</p>
+          <div className="flex flex-col items-end gap-1.5 sm:gap-2 text-white leading-none">
+            <p className="sm:text-lg">Crafting high-quality software</p>
+            <p className="text-sm sm:text-base">高品質なソフトウェアの作成</p>
           </div>
         </nav>
 
