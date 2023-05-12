@@ -14,9 +14,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent" />
 
         <nav className="w-full max-w-screen-2xl mx-auto pt-6 px-6 relative flex items-start justify-between">
-          <img className="w-20" src="/icon-white.svg" alt="" />
+          <img className="w-16 sm:w-20" src="/icon-white.svg" alt="" />
 
-          <div className="flex flex-col items-end gap-1.5 sm:gap-2 text-white leading-none">
+          <div className="flex flex-col items-end gap-2 text-white leading-none">
             <p className="sm:text-lg">Crafting high-quality software</p>
             <p className="text-sm sm:text-base">高品質なソフトウェアの作成</p>
           </div>
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="h-[80vh] sm:h-screen flex items-center justify-center p-8">
+      <section className="h-[50vh] sm:h-screen flex items-center justify-center p-8">
         <Image
           alt=""
           height={2180}
