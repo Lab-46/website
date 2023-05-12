@@ -17,11 +17,17 @@ export default function Home() {
         </nav>
 
         <div className="flex-1 flex items-center justify-center relative">
-          <img
-            src="/sl-departures.png"
-            className="w-full max-w-[900px]"
-            alt=""
-          />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.raycast.com/albingroen/stockholm-public-transport"
+          >
+            <img
+              src="/sl-departures.png"
+              className="w-full max-w-[900px] hover:scale-105 transition duration-700"
+              alt=""
+            />
+          </a>
         </div>
       </header>
     </>
