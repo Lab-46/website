@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Seo from "../components/Seo";
 
 export default function Home() {
@@ -7,13 +8,18 @@ export default function Home() {
       <Seo />
 
       <header
-        className="h-screen bg-cover bg-center flex flex-col"
+        className="w-full h-[80vh] sm:h-screen bg-cover bg-center flex flex-col"
         style={{ backgroundImage: "url('/iceland.jpg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent" />
 
         <nav className="w-full max-w-screen-2xl mx-auto pt-6 px-6 relative flex items-start justify-between">
           <img className="w-20" src="/icon-white.svg" alt="" />
+
+          <div className="flex flex-col items-end gap-3.5 text-white leading-none">
+            <p className="text-lg">Crafting high-quality software</p>
+            <p>高品質なソフトウェアの作成</p>
+          </div>
         </nav>
 
         <div className="flex-1 flex items-center justify-center relative">
@@ -24,12 +30,23 @@ export default function Home() {
           >
             <img
               src="/sl-departures.png"
-              className="w-full max-w-[900px] hover:scale-105 transition duration-700"
+              className="w-full max-w-[900px] sm:hover:scale-105 transition duration-700"
               alt=""
             />
           </a>
         </div>
       </header>
+
+      <section className="h-[80vh] sm:h-screen flex items-center justify-center p-8">
+        <Image
+          alt=""
+          height={2180}
+          width={1404}
+          src="/pattern.png"
+          className="w-full max-w-screen-lg"
+          loading="lazy"
+        />
+      </section>
     </>
   );
 }
