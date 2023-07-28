@@ -13,20 +13,11 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent" />
 
-        <nav className="w-full max-w-screen-2xl mx-auto pt-6 px-6 relative flex items-start justify-between">
+        <nav className="relative flex items-start justify-between w-full px-6 pt-6 mx-auto max-w-screen-2xl">
           <img className="w-16 sm:w-20" src="/icon-white.svg" alt="" />
-
-          <div className="flex flex-col items-end gap-2 text-white leading-none">
-            <p className="sm:text-lg select-none">
-              Crafting high-quality software
-            </p>
-            <p className="text-sm sm:text-base select-none">
-              高品質なソフトウェアの作成
-            </p>
-          </div>
         </nav>
 
-        <div className="flex-1 flex items-center justify-center relative">
+        <div className="relative flex items-center justify-center flex-1">
           <a
             target="_blank"
             rel="noopener noreferrer"
